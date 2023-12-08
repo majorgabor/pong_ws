@@ -37,7 +37,7 @@ class PongMobilePlayerNode(Node):
         player_action_msg.player_name = "player2"
         player_action_msg.action = current_player_action.value
         # publish
-        self.player_action_pub.publish_(player_action_msg)
+        self.player_action_pub_.publish(player_action_msg)
     
     def game_status_callback_(self, msg):
         # mark global
