@@ -1,0 +1,2 @@
+int16 x_position
+int16 y_position
